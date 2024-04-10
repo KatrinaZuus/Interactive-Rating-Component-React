@@ -1,0 +1,46 @@
+#result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 34.7px 24px 37px 24px;
+}
+
+.container img {
+    width: 136.9px;
+    height: 96px;
+    margin: 24px 0;
+}
+
+
+.select-rate {
+    width: 168px;
+    height: 32px;
+    background-color: #262e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px 5px;
+    border-radius: 22.5px;
+}
+
+
+.select-rate p{
+    color: #fc7614;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .select-rate {
+        width: 193px;
+        height: 32px;
+    }
+
+    
+.select-rate p{
+    font-size: 15px;
+}
+    
+}

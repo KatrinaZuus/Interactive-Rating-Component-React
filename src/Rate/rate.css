@@ -1,0 +1,115 @@
+.container {
+    width: 327px;
+    height: 360px;
+    padding: 24px 22px 32px 24px;
+    border-radius: 15px;
+    background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
+}
+
+.star-container {
+width: 40px;
+height: 40px;
+background-color: #262e38;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.star {
+    color: #fc7614;
+}
+
+.container h1 {
+    color: #fff;
+    margin: 16px 0 10px;
+    font-size: 24px;
+}
+
+.container p {
+    font-size: 14px;
+    color: #969fad;
+    line-height: 1.57;
+}
+
+.rate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+    margin: 24px 0 24px;
+}
+
+.rate-value {
+    background-color: #262e38;
+    color: #7c8798;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.rate-value:hover {
+    color: #fff;
+    background-color: #fc7614;
+}
+
+.submit {
+    width: 100%;
+    height: 45px;
+    background-color: #fc7614;
+    border-radius: 25px;
+    font-size: 14px;
+    letter-spacing: 1.87px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Overpass;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: #fc7614;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 412px;
+        height: 416px;
+        padding: 32px 39px 32px 32px;
+        border-radius: 30px;
+    }
+
+    .star-container {
+        width: 48px;
+        height: 48px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+        margin: 30px 0 7px;
+    }
+
+    .container p {
+        line-height: 1.6;
+        font-size: 15px;
+    }
+    .rate-container {
+        gap: 22px;
+    }
+
+    .rate-value {
+        width: 51px;
+        height: 51px;
+    }
+
+    .submit {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
